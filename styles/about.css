@@ -1,0 +1,22 @@
+.about__content {
+    margin-bottom: 30px;
+    font-size: 49px;
+    line-height: 61px;
+    letter-spacing: -2px;
+}
+
+.btn-about-services {
+    width: 255px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    background-color: #AD1818;
+    border: 1px solid #AD1818;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.btn-about-services:hover {
+    background-color: #fff;
+    color: #AD1818;
+}

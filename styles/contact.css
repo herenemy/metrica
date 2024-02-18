@@ -1,0 +1,43 @@
+.section-contact {
+    margin-top: 165px;
+}
+
+.contact-phone-img {
+    width: 20px;
+    margin-bottom: 12px;
+}
+
+.contact-phone {
+    display: block;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 60px;
+}
+
+.contact-mail {
+    position: relative;
+    font-size: 60px;
+    color: #000;
+    transition: .1s linear;
+}
+
+.contact-mail:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(18, 18, 18, .5);
+    opacity: 0;
+    transition: .2s linear;
+
+    bottom: 0;
+    left: 0;
+}
+
+.contact-mail:hover {
+    color: rgba(18, 18, 18, .5);
+}
+
+.contact-mail:hover:after {
+    opacity: 1;
+}

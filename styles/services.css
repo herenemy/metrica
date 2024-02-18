@@ -1,0 +1,39 @@
+.suptitle-services {
+    padding-top: 151px;
+
+    color: #fff;
+}
+
+.services-item {
+    margin-bottom: 60px;
+}
+
+.services-item:last-child {
+    margin-bottom: 0;
+}
+
+.services__img {
+    margin-bottom: 25px;
+    height: 270px;
+}
+
+.services__img-1 {
+    background: url(/resources/services-1.png) no-repeat;
+}
+
+.services__img-2 {
+    background: url(/resources/services-2.png) no-repeat;
+}
+
+.services__img-3 {
+    background: url(/resources/services-3.png) no-repeat;
+}
+
+.services__img-4 {
+    background: url(/resources/services-4.png) no-repeat;
+}
+
+.services__title {
+    font-size: 30px;
+    letter-spacing: -1px;
+}

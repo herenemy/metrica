@@ -1,0 +1,14 @@
+.product__img {
+    background: url(/resources/product.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 717px;
+}
+
+.product__content {
+    width: 443px;
+    padding: 600px 832px 60px 213px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
