@@ -37,10 +37,27 @@
 }
 
 .gallery__controls {
-    /* position: absolute;
-    bottom: 162px;
-    left: 115px;
-    width: 100%; */
+    position: relative;
+}
+
+.gallery__control {
+    position: absolute;
+    top: -48px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.gallery__control-prev {
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.gallery__control-next {
+    margin-left: 30px;
+    border-right: 4px solid #fff;
+    border-top: 4px solid #fff;
 }
 
 .gallery__img {

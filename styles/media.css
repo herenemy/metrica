@@ -135,15 +135,18 @@
         font-size: 24px;
         width: 377px;
     }
-    
-    .gallery__controls {
-        display: flex;
-        justify-content: space-between;
-        /* padding: 15px; */
-    }
 
     .gallery__controls-wrapper {
         bottom: 50%;
+    }
+
+    .gallery__controls {
+        top: 15px;
+    }
+
+    .gallery__control-next {
+        position: absolute;
+        right: 0;
     }
 
     .popup__title {
