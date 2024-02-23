@@ -4,17 +4,20 @@
 
 .title-intro {
     margin-bottom: 37px;
-    width: 956px;
 }
 
 .intro-bg {
-    background: url(/resources/intro-bg.png) no-repeat;
+    background: url(../resources/intro-bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
     height: 500px;
 }
 
 .intro__content {
+    position: absolute;
     width: 430px;
-    padding: 382px 680px 40px 40px;
+    left: 40px;
+    bottom: 40px;
     font-size: 19px;
     line-height: 26px;
     color: #fff;

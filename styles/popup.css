@@ -1,0 +1,84 @@
+.body_fixed {
+    overflow: hidden;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+
+.popup_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__content {
+    position: relative;
+    max-width: 777px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 80px 50px;
+}
+
+.popup__title {
+    font-size: 45px;
+}
+
+.popup__suptitle {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.popup__close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.btn-servives-submit {
+    width: 100%;
+    line-height: 64px;
+    border: 1px solid #AD1818;
+}
+
+/* input */
+
+.input {
+    margin-bottom: 50px;
+    display: block;
+    width: 643px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, .4);
+    font-size: 25px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    font-size: 25px;
+    color: rgba(0, 0, 0, .4);
+}

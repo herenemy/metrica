@@ -9,7 +9,7 @@ body {
 }
 
 .section-black {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     padding-bottom: 150px;
     background-color: #000;
     color: #fff;
@@ -37,4 +37,5 @@ body {
     display: block;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }

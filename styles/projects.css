@@ -5,18 +5,7 @@
 .projects__img {
     height: 450px;
     margin-bottom: 22px;
-}
-
-.projects__img-1 {
-    background: url(/resources/projects-1.png) no-repeat;
-}
-
-.projects__img-2 {
-    background: url(/resources/projects-2.png) no-repeat;
-}
-
-.projects__img-3 {
-    background: url(/resources/projects-3.png) no-repeat;
+    width: 100%;
 }
 
 .project__title {

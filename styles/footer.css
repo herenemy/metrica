@@ -2,27 +2,20 @@
     background-color: #000;
 }
 
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-footer {
     margin-bottom: 87px;
     padding-top: 76px;
-    text-align: center;
 }
 
 .nav__link-footer {
-    
     color: #fff;
-}
-
-.nav__link-footer:after {
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 1px;
-    background-color: rgba(18, 18, 18, 0.5);
-
-    bottom: 0;
-    left: 0;
-    transition: .2s linear;
 }
 
 .copyright {

@@ -9,12 +9,9 @@
     align-items: center;
 }
 
-.nav__item{
+.nav__link {
     display: inline-block;
     margin-left: 54px;
-}
-
-.nav__link {
     position: relative;
     font-size: 18px;
     text-transform: uppercase;
@@ -22,7 +19,7 @@
     transition: .2s linear;
 }
 
-.nav__item:first-child {
+.nav__link:first-child {
     margin-left: 0px;
 }
 

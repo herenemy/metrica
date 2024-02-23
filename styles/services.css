@@ -4,8 +4,17 @@
     color: #fff;
 }
 
+.services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 85px;
+
+    margin-bottom: 100px;
+}
+
 .services-item {
-    margin-bottom: 60px;
+    width: calc(50% - 5px);
 }
 
 .services-item:last-child {
@@ -15,25 +24,64 @@
 .services__img {
     margin-bottom: 25px;
     height: 270px;
+    
+}
+
+.label-wrapper {
+    padding: 30px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    background-color: #AD1818;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
 }
 
 .services__img-1 {
-    background: url(/resources/services-1.png) no-repeat;
+    background: url(../resources/services-1.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .services__img-2 {
-    background: url(/resources/services-2.png) no-repeat;
+    background: url(../resources/services-2.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .services__img-3 {
-    background: url(/resources/services-3.png) no-repeat;
+    background: url(../resources/services-3.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .services__img-4 {
-    background: url(/resources/services-4.png) no-repeat;
+    background: url(../resources/services-4.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .services__title {
     font-size: 30px;
     letter-spacing: -1px;
 }
+
+.btn-services {
+    background-color: #AD1818;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-services:hover {
+    background-color: #fff;
+    color: #AD1818;
+}
+

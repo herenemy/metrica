@@ -2,23 +2,46 @@
     margin-top: 165px;
 }
 
-.contact-phone-img {
-    width: 20px;
-    margin-bottom: 12px;
+.suptitle-contact {
+    margin-bottom: 74px;
+}
+
+.contact__row {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.contact__col {
+    position: relative;
+    width: 50%;
+}
+
+.contact-phone,
+.contact-mail {
+    position: relative;
+    font-size: 43px;
+    color: #000;
 }
 
 .contact-phone {
     display: block;
-    margin-bottom: 30px;
-    color: #000;
-    font-size: 60px;
 }
 
 .contact-mail {
-    position: relative;
-    font-size: 60px;
-    color: #000;
     transition: .1s linear;
+}
+
+.phone-img, 
+.mail-img {
+    position: absolute;
+    top: -24px; 
+    left: 0;
+    width: 24px;
+}
+
+.mail-img {
+    height: 16px;
 }
 
 .contact-mail:after {
